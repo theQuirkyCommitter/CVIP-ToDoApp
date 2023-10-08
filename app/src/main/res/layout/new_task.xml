@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/newTasktext"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:autofillHints="name"
+        android:background="@null"
+        android:ems="20"
+        android:hint="@string/newTask"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColorHint="#8D6E63"/>
+
+    <Button
+        android:id="@+id/taskSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:background="@drawable/design_button"
+        android:text="@string/save"
+        android:textAllCaps="false" />
+
+</LinearLayout>

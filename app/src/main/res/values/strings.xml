@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Do</string>
+    <string name="image">Image</string>
+    <string name="tasks">Add Tasks</string>
+    <string name="save">Save</string>
+    <string name="newTask">New Task</string>
+    <string name="prioritize">prioritize your tasks with do</string>
+</resources>
